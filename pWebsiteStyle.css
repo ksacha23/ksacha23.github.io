@@ -4,10 +4,10 @@
 
 body{
 	font-family: helvetica;
-	/*background-image: linear-gradient(to right, #88958D,#BC9CB0,#DDF2EB);*/
+	background-image: linear-gradient(to right, #EB4B98,#5158BB,#043565);
 	/*background-image: linear-gradient(to right, #861657,#AA4465,#FFA69E);*/
 	/*background-image: linear-gradient(to right, #2D898B,#2D848B,#35874A);*/
-	background-image: linear-gradient(to right, #DB504A,#FF6F59,#254441);
+	/*background-image: linear-gradient(to right, #DB504A,#FF6F59,#254441);*/
 }
 
 h1{
@@ -33,6 +33,11 @@ a:visited{
 	text-decoration: none;
 }
 
+a:link{
+	color: black;
+	text-decoration: none;
+}
+
 #home{
 	font-size: 65px;
 	width: 100%;
@@ -42,31 +47,29 @@ a:visited{
 	/*background-image: linear-gradient(to right, #88958D,#BC9CB0,#DDF2EB);*/
 }
 
-#bio{
-	width: 50%;
-}
-
-#skills{
-	padding-left: 45px;
-}
-
 #welcomeMessage{
 	position: relative;
 	left: 150px;
+}
+
+#bio{
+	width: 50%;
 }
 
 #about{
 	display: inline-flex;
 }
 
-
-#resume{
-	
+#aboutP{
+	font-size: 22px;
 }
 
-#name {
-	padding: 16px;
-	font-size: 24px;
+#skills{
+	padding-left: 45px;
+}
+
+#skillList{
+	font-size: 22px;
 }
 
 #time{
@@ -74,20 +77,16 @@ a:visited{
 	font-style: italic;
 }
 
-#projects{
-	
+#resumeSubHead{
+	font-size: 22px;
+}
+
+#resumeList{
+	font-size: 22px;
 }
 
 #dataVizProject{
 	background-color: hsl(0,0%,100%,0.4);
-}
-
-#contact{
-	
-}
-
-#head{
-	
 }
 
 #links{
@@ -95,7 +94,8 @@ a:visited{
 }
 
 #contactBody{
-	text-align: left; 
+	text-align: left;
+	font-size: 22px; 
 }
 
 #contactMessage{
