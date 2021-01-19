@@ -1,0 +1,102 @@
+/* Personal Website Style v0.0 */
+/* Kamil Sacha */
+/* January 05, 2021 */
+
+body{
+	font-family: helvetica;
+	/*background-image: linear-gradient(to right, #88958D,#BC9CB0,#DDF2EB);*/
+	/*background-image: linear-gradient(to right, #861657,#AA4465,#FFA69E);*/
+	/*background-image: linear-gradient(to right, #2D898B,#2D848B,#35874A);*/
+	background-image: linear-gradient(to right, #DB504A,#FF6F59,#254441);
+}
+
+h1{
+	font-size: 40px;
+}
+
+#navBar{
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+
+a {
+	padding: 18px;
+	text-decoration: none;
+}
+a:hover{
+	font-weight: bold;
+}
+
+a:visited{
+	color: black;
+}
+
+#home{
+	font-size: 65px;
+	width: 100%;
+	height: auto;
+	padding-top: 300px;
+	padding-bottom: 400px;
+	/*background-image: linear-gradient(to right, #88958D,#BC9CB0,#DDF2EB);*/
+}
+
+#bio{
+	width: 50%;
+}
+
+#skills{
+	padding-left: 45px;
+}
+
+#welcomeMessage{
+	position: relative;
+	left: 150px;
+}
+
+#about{
+	display: inline-flex;
+}
+
+
+#resume{
+	
+}
+
+#name {
+	padding: 16px;
+	font-size: 24px;
+}
+
+#time{
+	font-weight: lighter;
+	font-style: italic;
+}
+
+#projects{
+	
+}
+
+#dataVizProject{
+	background-color: hsl(0,0%,100%,0.4);
+}
+
+#contact{
+	
+}
+
+#head{
+	
+}
+
+#links{
+	display: inline-flex;
+}
+
+#contactBody{
+	text-align: left; 
+}
+
+#contactMessage{
+	display: block;
+}
