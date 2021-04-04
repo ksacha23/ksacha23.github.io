@@ -4,14 +4,33 @@
 
 body{
 	font-family: helvetica;
+	color: whitesmoke;
+	/* My dad did not like this
+	*/
+	background: #c0392b;
+	background: -webkit-linear-gradient(#8e44ad, #F15F79); 
+	background: linear-gradient(#8e44ad, #F15F79);
 
-	background: #c0392b;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #8e44ad, #c0392b);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #8e44ad, #c0392b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	/*
+	Blues
+	background: #43cea2;
+	background: -webkit-linear-gradient(to right, #185a9d, #43cea2); 
+	background: linear-gradient(to right, #185a9d, #43cea2);
+	*/
+
+	/*
+	Black
+	background: #000000;
+	background: -webkit-linear-gradient(to right, #434343, #000000);
+	background: linear-gradient(to right, #434343, #000000);
+	*/
+
+	/*
 	background-size: 400% 400%;
 	animation: gradient 10s ease infinite;
+	*/
 }
-
+/*
 @keyframes gradient{
 	0%{
 		background-position: 0%;
@@ -25,14 +44,16 @@ body{
 		background-position: 0%;
 	}
 }
+*/
 
 h1{
 	font-size: 40px;
 }
 
 #navBar{
-	position: sticky;
-	top: 0;
+	position: fixed;
+	top: 2.4%;
+	width: 100%;
 	z-index: 1;
 	font-size: 20px;
 }
@@ -46,14 +67,15 @@ a:hover{
 }
 
 a:visited{
-	color: black;
+	color: whitesmoke;
 	text-decoration: none;
 }
 
 a:link{
-	color: black;
+	color: whitesmoke;
 	text-decoration: none;
 }
+
 
 #home{
 	font-size: 65px;
@@ -61,7 +83,6 @@ a:link{
 	height: auto;
 	padding-top: 300px;
 	padding-bottom: 400px;
-	/*background-image: linear-gradient(to right, #88958D,#BC9CB0,#DDF2EB);*/
 }
 
 #welcomeMessage{
