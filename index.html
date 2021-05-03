@@ -1,4 +1,4 @@
-<!- Personal Website ->
+<!-- Personal Website -->
 <!-- Kamil Sacha -->
 <!-- January 05, 2021 -->
 
@@ -42,6 +42,8 @@
 				<li>R</li>
 				<li>SQL</li>
 				<li>JavaScript</li>
+				<li>HTML/CSS</li>
+				<li>PHP</li>
 			</ul>
 		</div>
 	</div>
@@ -83,5 +85,18 @@
 		</div>
 		</div>
 	</div>
+
+	<script>
+		var prevScrollpos = window.pageYOffset;
+		window.onscroll = function() {
+		var currentScrollPos = window.pageYOffset;
+		  if (prevScrollpos > currentScrollPos) {
+			document.getElementById("navBar").style.top = "0";
+		  } else {
+			document.getElementById("navBar").style.top = "-50px";
+		  }
+		  prevScrollpos = currentScrollPos;
+		}
+	</script>
 </body>
 </html>
