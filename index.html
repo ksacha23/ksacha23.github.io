@@ -11,7 +11,7 @@
 </head>
 
 <body>
-	<div id="navBar">
+	{% comment %} <div id="navBar">
 		<a href="#home">Home</a>
 		<a href="#about">About</a>
 		<a href="#resume">Resume</a>
@@ -19,11 +19,11 @@
 		<a href="#contact">Contact</a>
 		<a href="https://www.linkedin.com/in/kamilsacha/" target="_blank"> LinkedIn</a>
 		<hr id="bar">
-	</div>
+	</div> {% endcomment %}
 
 	<div id="home">
 		<label id="welcomeMessage">
-			Hello there, I'm Kamil Sacha, <br>a Junior at Miami University <br>interested in Software Engineering
+			Hello there, I'm Kamil Sacha, <br>a Senior at Miami University <br>interested in Software Engineering
 		</label>
 	</div>
 
@@ -50,10 +50,22 @@
 
 	<div id="resume">
 		<h1>Experience</h1>
+
+		<div id="resumeSubHead">
+			<h3 id="employer">Procter & Gamble</h3>
+			<h3 id="position">Information Technology Intern</h3>
+			<h4 id="time">May 2021 - July 2021</h4>
+		</div>
+		<ul id="resumeList">
+			<li>Developed data visualization dashboards in Cisco AppDynamics to ensure health and performance standards are met by cost estimating applications with 5000+ global users</li>
+			<li>Created interactive report in Microsoft Power BI simplifying the analysis of costs for engineering projects across all company business units</li>
+			<li>Managed integration of software applications used by all company business units in an effort to save $1 billion over two years</li>
+		</ul>
+
 		<div id="resumeSubHead">
 			<h3 id="employer">Miami University Center for Analytics and Data Science</h3>
 			<h3 id="position">Data Analytics Intern</h3>
-			<h4 id="time">September 2019 - Present</h4>
+			<h4 id="time">September 2019 - December 2020</h4>
 		</div>
 		<ul id="resumeList">
 			<li>Designed an application which employed a predictive model that allowed the client to diminish insider threats to their company</li>
@@ -86,7 +98,7 @@
 		</div>
 	</div>
 
-	<script>
+	{% comment %} <script>
 		var prevScrollpos = window.pageYOffset;
 		window.onscroll = function() {
 		var currentScrollPos = window.pageYOffset;
@@ -97,6 +109,6 @@
 		  }
 		  prevScrollpos = currentScrollPos;
 		}
-	</script>
+	</script> {% endcomment %}
 </body>
 </html>
