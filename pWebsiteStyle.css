@@ -2,30 +2,27 @@
 /* Kamil Sacha */
 /* January 05, 2021 */
 
-body{
-	font-family: helvetica;
-	color: whitesmoke;
-	/* My dad did not like this
-	*/
-	background: #c0392b;
-	background: -webkit-linear-gradient(#8e44ad, #F15F79); 
-	background: linear-gradient(#8e44ad, #F15F79);
+body {
+  font-family: helvetica;
+  color: whitesmoke;
 
-	/*
-	Blues
-	background: #43cea2;
-	background: -webkit-linear-gradient(to right, #185a9d, #43cea2); 
-	background: linear-gradient(to right, #185a9d, #43cea2);
-	*/
+  background: #c0392b;
+  background: -webkit-linear-gradient(#8e44ad, #f15f79);
+  background: linear-gradient(to right, #8e44ad, #f15f79);
 
-	/*
-	Black
-	background: #000000;
-	background: -webkit-linear-gradient(to right, #434343, #000000);
-	background: linear-gradient(to right, #434343, #000000);
-	*/
+  /* 
+  BlueGreen
+  background: #43cea2;
+  background: -webkit-linear-gradient(to right, #185a9d, #43cea2);
+  background: linear-gradient(to right, #185a9d, #43cea2); */
 
-	/*
+  /* 
+  Black 
+  background: #000000;
+  background: -webkit-linear-gradient(to right, #434343, #000000);
+  background: linear-gradient(to right, #434343, #000000); */
+
+  /*
 	background-size: 400% 400%;
 	animation: gradient 10s ease infinite;
 	*/
@@ -46,98 +43,151 @@ body{
 }
 */
 
-h1{
-	font-size: 40px;
+h1 {
+  font-size: 40px;
 }
 
-#navBar{
-	position: fixed;
-	padding: 10px;
-	top: 0;
-	width: 100%;
-	/* z-index: 1; */
-	font-size: 20px;
-	transition: top 0.5s;
+#navBar {
+  position: fixed;
+  padding: 10px;
+  top: 0;
+  width: 100%;
+  /* z-index: 1; */
+  font-size: 20px;
+  transition: top 0.5s;
 }
 
 a {
-	padding: 18px;
-	text-decoration: none;
+  padding: 18px;
+  text-decoration: none;
 }
-a:hover{
-	font-weight: bold;
-}
-
-a:visited{
-	color: whitesmoke;
-	text-decoration: none;
+a:hover {
+  font-weight: bold;
 }
 
-a:link{
-	color: whitesmoke;
-	text-decoration: none;
+a:visited {
+  color: whitesmoke;
+  text-decoration: none;
 }
 
-
-#home{
-	font-size: 65px;
-	width: 100%;
-	height: auto;
-	padding-top: 300px;
-	padding-bottom: 400px;
+a:link {
+  color: whitesmoke;
+  text-decoration: none;
 }
 
-#welcomeMessage{
-	position: relative;
-	left: 150px;
+#home {
+  font-size: 65px;
+  width: 100%;
+  height: auto;
+  padding-top: 300px;
+  padding-bottom: 400px;
 }
 
-#bio{
-	width: 50%;
+#welcomeMessage {
+  position: relative;
+  left: 150px;
 }
 
-#about{
-	display: inline-flex;
+#bio {
+  width: 50%;
 }
 
-#aboutP{
-	font-size: 22px;
+#about {
+  display: inline-flex;
 }
 
-#skills{
-	padding-left: 45px;
+#aboutP {
+  font-size: 22px;
 }
 
-#skillList{
-	font-size: 22px;
+#skills {
+  padding-left: 45px;
 }
 
-#time{
-	font-weight: lighter;
-	font-style: italic;
+#skillList {
+  font-size: 22px;
 }
 
-#resumeSubHead{
-	font-size: 22px;
+#time {
+  font-weight: lighter;
+  font-style: italic;
 }
 
-#resumeList{
-	font-size: 22px;
+#resumeSubHead {
+  font-size: 22px;
 }
 
-#dataVizProject{
-	background-color: hsl(0,0%,100%,0.4);
+#resumeList {
+  font-size: 22px;
 }
 
-#links{
-	display: inline-flex;
+#dataVizProject {
+  background-color: hsl(0, 0%, 100%, 0.4);
 }
 
-#contactBody{
-	text-align: left;
-	font-size: 22px; 
+#tictactoe {
+  background-color: hsl(0, 0%, 100%, 0.4);
 }
 
-#contactMessage{
-	display: block;
+#links {
+  display: inline-flex;
+}
+
+#contactBody {
+  text-align: left;
+  font-size: 22px;
+}
+
+#contactMessage {
+  display: block;
+}
+
+td {
+  border: 2px solid #333;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 70px;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  position: absolute;
+  left: 50%;
+  margin-left: -155px;
+  top: 50px;
+}
+
+table tr:first-child td {
+  border-top: 0;
+}
+
+table tr:last-child td {
+  border-bottom: 0;
+}
+
+table tr td:first-child {
+  border-left: 0;
+}
+
+table tr td:last-child {
+  border-right: 0;
+}
+
+.endgame {
+  display: none;
+  width: 200px;
+  top: 120px;
+  background-color: rgba(205, 133, 63, 0.8);
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 2em;
 }
